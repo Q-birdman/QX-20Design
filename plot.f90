@@ -22,7 +22,7 @@ program plot
   allocate(theta(0:n))
   allocate(psi(0:n))
   
-  ! Initial state
+  ! 解析で出たlogを読み込む
   read(10,*) x0(0),y0(0),z0(0),phi(0),theta(0),psi(0)
   
   ! Read datas
