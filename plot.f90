@@ -25,7 +25,7 @@ program plot
   ! 解析で出たlogを読み込む
   read(10,*) x0(0),y0(0),z0(0),phi(0),theta(0),psi(0)
   
-  ! Read datas
+  ! 解析で出たlogを読み込む
   do i = 1, n
      read(10,*) x0(i),y0(i),z0(i),phi(i),theta(i),psi(i)
   end do
